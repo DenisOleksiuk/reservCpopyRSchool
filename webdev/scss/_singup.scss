@@ -1,0 +1,45 @@
+.singup {
+    padding: 158px 0 175px 0;
+    background: url('../assets/bg.png') center (center / cover) no-repeat;
+    &-title {
+        margin-right: 75px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    form {
+        margin-top: 22px;
+        margin-left: -80px;
+        text-align: center;
+    }
+    input {
+        width: 269px;
+        height: 37px;
+        padding-left: 15px;
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 140%;
+        color: #373737;
+    }
+    &-btn {
+        width: 56px;
+        height: 37px;
+        background: #00AFDB;
+        border-radius: 0px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s all;
+        img {
+            width: 16px;
+        }
+        &:hover {
+            background: #009CC2;
+        }
+    }
+}

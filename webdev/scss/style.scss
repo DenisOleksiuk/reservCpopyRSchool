@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1600px;
+}
+
+@import 'intro';
+@import 'header';
+@import 'represent';
+@import 'community';
+@import 'implement';
+@import 'singup';
+@import 'download';
+@import 'footer';
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}

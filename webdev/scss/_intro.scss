@@ -1,0 +1,87 @@
+.intro {
+    background: url(../assets/bg-image.png) center (center / cover) no-repeat;
+    padding-top: 15px;
+    padding-bottom: 89px;
+    height: 100vh;
+    position: relative;
+    &-title {
+        margin-right: 77px;
+        font-family: Roboto;
+        margin-top: 36px;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 70px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &-subtitle {
+        width: 380px;
+        height: 50px;
+        margin: 12px auto;
+        margin-left: 411px;
+        font-family: Roboto;
+        text-align: center;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 127%;
+        color: #FFFFFF;
+    }
+    &-btn {
+        display: block;
+        width: 148px;
+        height: 37px;
+        margin: auto;
+        margin-left: 526px;
+        margin-top: 11px;
+        background: #00AFDB;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s all;
+        &:hover {
+            background: #009CC2;
+        }
+    }
+    &-social {
+        width: 163px;
+        height: 20px;
+        position: absolute;
+        left: 679px;
+        bottom: 0;
+        margin-bottom: 74px;
+    }
+    &-social-items {
+        display: flex;
+        justify-content: space-around;
+    }
+    &-social-item {
+        width: 20px;
+        height: 20px;
+        list-style: none;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 0 0px 32px 5px #fff;
+        }
+        span {
+            width: 20px;
+            height: 20px;
+            margin-top: 4px;
+            border-radius: 100%;
+            border: 2px solid #fff;
+            display: block;
+        }
+        img {
+            margin: 4px auto;
+            justify-content: center;
+            display: flex;
+        }
+    }
+}

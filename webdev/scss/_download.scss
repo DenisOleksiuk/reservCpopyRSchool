@@ -1,0 +1,73 @@
+.download {
+    padding: 93px 0 143px 0;
+    background: #F5F6F7;
+    &-title {
+        margin-right: 80px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #373737;
+    }
+    &-text {
+        width: 381px;
+        margin-right: 493px;
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 140%;
+        color: #4E4E4E;
+    }
+    &-buttons {
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        width: 350px;
+        justify-content: space-around;
+    }
+    &-btn {
+        position: relative;
+        left: -37px;
+        width: 97px;
+        height: 38px;
+        background: #00AFDB;
+        border-radius: 0px;
+        border: none;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: 0.3s all;
+        &:hover {
+            background: #009CC2;
+        }
+    }
+    &-apple, &-android {
+        width: 54px;
+        height: 38px;
+        background: #009CC2;
+        border-radius: 0px;
+        border: none;
+        position: relative;
+        top: 3px;
+        right: 42px;
+        cursor: pointer;
+        transition: 0.3s all;
+        &:hover {
+            background: #009CC2;
+        }
+        img {
+            height: 18px;
+        }
+    }
+}
